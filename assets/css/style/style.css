@@ -1,0 +1,329 @@
+
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   @font-face {
+      font-family: "Gilroy";
+      src: url(/assets/fonts/Gilroy-Semibold.ttf);
+   }
+   @font-face {
+      font-family: "Merriweather";
+      src: url(/assets/fonts/Merriweather-Black.ttf);
+   }
+   body {
+      background-color: #191411;
+      font-family: "Gilroy", sans-serif;
+     color: white;
+   }
+   .main {
+    
+    background-repeat: no-repeat;
+            background-position: top center;
+      background-image: url("/assets/img/main_bg.png");
+      
+   }
+   .header {
+      padding: 40px 0;
+   }
+   .container   {
+      width: 1200px;
+      margin: 0 auto;
+   }
+   .header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .logo img {
+      vertical-align: bottom;
+   }
+   .menu {
+      margin-left: 191px;
+   }
+   .menu-list {
+      list-style: none;
+      display: flex;
+   }
+   .menu-item {
+      margin-right: 88px;
+   }
+   .menu-item a {
+      text-decoration: none;
+      color: white;
+      font-style: 18px;
+      cursor: pointer;
+   }
+   .menu-item  a:hover {
+      border-bottom:  1px solid white;
+
+   }
+   .currency {
+      border: 1px solid white;
+      border-radius: 5px;
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      padding: 6px;
+      box-sizing: border-box;
+      margin-left: auto;
+      line-height: 32px;
+      cursor: pointer;
+      user-select: none;
+
+   }
+   .main-content {
+      padding-top: 103px;
+      padding-bottom: 199px;
+   }
+
+   .container  .main-content {
+      position: relative;
+   }
+   .main-info {
+      max-width: 688px;
+   }
+   .main-small-info {
+      background: #d3320d;
+      border-radius: 100px;
+      padding: 12px 16px;
+      display: inline-block;
+      font-size: 18px;
+   } 
+   .main-title {
+      font-family: "Merriweather", sans-serif;
+      font-size: 120px;
+      line-height: 130%;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 56px;
+   }
+.main-text {
+   font-size: 24px;
+line-height: 29px;
+margin-bottom: 56px;
+}  
+.button {
+   background: #DA8023;
+   width: 260px;
+   height: 62px;
+   border-radius: 8px;
+   box-sizing: border-box;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   cursor: pointer;
+   outline: none;
+   font-size: 18px;
+}
+
+.button:hover {
+  border: 1px solid white;
+
+ 
+}
+.common-title {
+font-family:"Merriweather", sans-serif;
+font-size: 64px;
+line-height: 80px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.03em ;
+}
+
+
+.burger-foto {
+   position: absolute;
+   top:123px;
+   left: calc(100% - 1400px);
+
+} 
+/* blook2 */
+
+.why {
+   background-image: url("/assets/img/whybg.png");
+   background-position: top center;
+   background-size: initial;
+   padding-bottom: 180px;
+}
+.whtitle {
+font-family:"Merriweather", sans-serif;
+font-size: 64px;
+line-height: 80px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.03em ;
+}
+.why-items {
+   display: grid;
+   text-align: center;
+   margin-top: 60px;
+    gap: 100px;
+    grid-template-columns: repeat(3, 312px);
+    justify-content: center;
+}
+.why-item {
+text-align: center;
+}
+.why-item-title {
+   font-size: 24px;
+   padding: 24px 0;
+   line-height: 29px;
+}
+.why-item-text {
+font-size: 16px;
+line-height: 140%;
+}
+/* end */
+
+/* bloock__3 */
+
+.products {
+   background-image: url("/assets/img/burgers_bg2.png");
+   background-size: 1400px;
+   background-position: top center;
+   background-repeat: no-repeat;
+   padding-bottom: 180px;
+}
+.products-items {
+   display: grid;
+  grid-template-columns: 384px 384px 384px;
+   gap: 24px;
+   margin-top: 60px;
+}
+.products-item {
+   padding: 30px;
+   background: #211a16;
+   border-radius: 16px;
+   border: 1px solid #353535;
+}
+.products-item-image {
+
+}
+.products-item-image img {
+   max-width: 100%;
+}
+.products-item-title {
+   font-size: 24px;
+   padding: 24px 0;
+}
+.produkts-item-text {
+font-size: 16px;
+line-height: 140%;
+margin-bottom: 24px;
+}
+.products-item-extra {
+   display: flex;
+   justify-content: space-between;
+}
+.products-item-prase {
+   font-size: 32px;
+   line-height: 39px;
+   margin-bottom: 8px;
+}
+.products-item-weight {
+   font-size: 16px;
+   line-height: 18px;
+   color: #757575;
+}
+.product-button {
+   max-width: 182px;
+   max-height: 62px;
+   background: ;
+   display: flex;
+   align-items: center;
+}
+.product-button span:first-child {
+   margin-right: 10px;
+}
+
+/* order */
+.order {
+   background-position: top center;
+   background-image: url("/assets/img/order_bg.png");
+   background-repeat: no-repeat;
+   padding-bottom: 180px;
+   overflow: hidden;
+}
+.order .container {
+   position: relative;
+}
+.order-image {
+   position: absolute;
+   top: 0;
+   right: calc(100% -764px);
+   z-index: -1;
+}
+.order-form {
+   background: #211a16;
+   border: 1px solid #353535;
+border-radius: 16px;
+margin-top: 60px;
+max-width: 424px;
+box-sizing: border-box;
+padding: 60px 40px;
+margin-left: 674px;
+}
+.order-form-text {
+   font-size: 24px;
+   text-align: center
+}
+
+
+.order-form-inputs {
+   display: flex;
+
+      flex-direction: column;
+      margin-top: 40px;
+}
+.order-form-input {
+   width: 344px;
+   height: 62px;
+   border-radius: 8px;
+   background: ;
+   width: 344px;
+   height: 62px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+
+
+
+
+.order-form-input input {
+color: white;
+   padding: 10px 10px;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+   background: #211a16;
+   border-radius: 8px;
+   width: 344px;
+   height: 62px;
+   border: 1px solid wheat;
+   outline: none;
+}
+.order-form-inputs .button {
+width: 364px;
+height: 62px;
+margin-top: 20px;
+}
+
+.footer {
+   padding: 60px o;
+   
+
+}
+.footer .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+
